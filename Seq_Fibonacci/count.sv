@@ -1,4 +1,4 @@
-module segquencia_de_fibonacci(input clk_in,output [6:0] d, output reg [5:0] sel);
+module count(input clk_in,output [6:0] d, output reg [5:0] sel);
 	reg [31:0] in,n1,n2;
 	reg [3:0] d1,d2,d3,d4,d5,d6, num;
 	reg clk1, clk2;
